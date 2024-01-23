@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: block;
+}
+
+.navegacao {
+  display: flex;
+  padding: 8px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #C4C4CC;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 16px;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #E1E1E6;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  padding-bottom: 32px;
+}
+
+/* pagina home */
+.pg-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.pg-home button {
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  color: white;
+}
+
+/* pagina 2 */
+.pg-universe {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 64px;
+}
+
+.pg-universe p {
+  color: #E1E1E6;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 648px;
+}
+
+/* pagina 3 */
+.pg-exploration {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 64px;
+}
+
+.pg-exploration p {
+  color: #E1E1E6;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 648px;
+}
+
+/* pagina error */
+.pg-error {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 64px;
+}
